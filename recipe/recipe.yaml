@@ -1,7 +1,7 @@
 context:
   name: ccflow-email
-  version: "0.2.1"
-  python_min: '3.10'
+  version: "0.2.2"
+  python_min: '3.11'
 
 package:
   name: ${{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/ccflow_email/ccflow_email-${{ version }}.tar.gz
-  sha256: 2881ac0446b290283d58234bc5f6a99236e23dc0d36de3a54f9620271e53dd73
+  sha256: 6958f41f8fb9659d46fc05616e524c8c34edfa926c97eb02d219c316e04a66b3
 
 build:
   number: 0
